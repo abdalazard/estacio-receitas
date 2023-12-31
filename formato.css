@@ -1,0 +1,32 @@
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+/* estilos de areas semanticas */
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, nav, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Explorar as possibilidades da visualização no modo flex */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Posicionar adequadamente as áreas semânticas */
+header, footer {
+    padding: 20px;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
