@@ -1,14 +1,28 @@
 .logo {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
-/* estilos de areas semanticas */
-body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, nav, footer {
+.minilogo {
+    height: 40px;
+    width: 40px;
+
+}
+
+body, div, h1, h2, h3, h4, h5, h6, p, ol, nav, footer {
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a:hover {
+    color: inherit; 
 }
 
 .container {
@@ -17,17 +31,40 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, nav, footer {
     overflow: hidden;
 }
 
-/* Explorar as possibilidades da visualização no modo flex */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-/* Posicionar adequadamente as áreas semânticas */
 header, footer {
     padding: 20px;
-    background: #f4f4f4;
     color: #333;
     text-align: center;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.prato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 280px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f4f4f4;
+}
+
+.prato img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
