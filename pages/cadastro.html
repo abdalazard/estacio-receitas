@@ -13,13 +13,13 @@
         <nav class="navbar navbar-expand-lg">
             <div class="row">
                 <div class="col-4">
-                    <a href="../index.html">Inicio</h3>
+                    <a href="../index.html">Inicio</a>
                 </div>
                 <div class="col-4">
                     <a href="receitas.html">Receitas</a>
                 </div>
                 <div class="col-4">
-                    <a href="cadastro.html" style="color:grey">Cadastro</a>
+                    <a href="cadastro.html" class="menu_atual">Cadastro</a>
                 </div>
             </div>
         </nav>
@@ -30,9 +30,47 @@
                 </div>
                 <div class="col-6">
                     <h3>Cadastro</h3>
-                    <!-- Crie aqui o formulário -->
                 </div>
             </div>
+        </div>
+        <div class="jumbotron">
+            <form METHOD="POST" action="">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control form-control-lg" id="nome" name="nome">
+                    <label for="email">E-mail</label>
+                    <input type="text" class="form-control form-control-lg" id="email" name="email">
+                    <label for="cep">CEP</label>
+                    <input type="text" class="form-control form-control-lg" id="cep" name="cep">
+                    <label for="rua">Rua</label>
+                    <input type="text" class="form-control form-control-lg" id="cep" name="rua">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="numero">Nº </label>
+                            <input type="text" class="form-control form-control-lg" id="numero" name="numero">
+                        </div>
+                        <div class="col-6">
+                            <label for="complemento">Complemento </label>
+                            <input type="text" class="form-control form-control-lg" id="complemento" name="complemento">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" class="form-control form-control-lg" id="cidade" name="cidade">
+                        </div>
+                        <div class="col-2">
+                            <label for="uf">UF </label>
+                            <input type="text" class="form-control form-control-lg" id="uf" name="uf">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="submit" class="btn btn-primary btn-lg w-100" value="Cadastrar">
+                        </div>
+                    </div>
+                </div>            
+            </form>
         </div>
         <footer class="footer">
             <div class="container">

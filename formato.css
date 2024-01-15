@@ -9,11 +9,14 @@
 
 }
 
-body, div, h1, h2, h3, h4, h5, h6, p, ol, nav, footer {
+body, div, h1, h2, h3, h4, h5, h6, p, ol, footer {
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
     box-sizing: border-box;
+}
+.navbar a {
+    padding: 10px;
 }
 
 a {
@@ -67,4 +70,12 @@ header, footer {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+}
+
+.menu_atual {
+    color:white;
+    width: 100px;
+    background-color: rgb(173, 167, 167); 
+    padding: 30%; 
+    border-radius: 5%; 
 }
